@@ -6,28 +6,28 @@ This project analyzes the effectiveness of various factors on email campaign cli
 ## Dataset
 The dataset, named email_campaign_dataset.csv, includes the following columns:
 
-campaign_id: Unique identifier for each campaign.
-sender: Identifier for the sender of the campaign.
-subject_len: Length of the email subject.
-body_len: Length of the email body.
-mean_paragraph_len: Average length of paragraphs in the email body.
-day_of_week: Day of the week the email was sent.
-is_weekend: Indicates if the email was sent on a weekend (1) or not (0).
-times_of_day: Time of day the email was sent (e.g., Morning, Noon, Evening).
-category: Category of the email campaign.
-product: Product associated with the campaign.
-no_of_CTA: Number of Call-To-Actions (CTAs) in the email.
-mean_CTA_len: Average length of CTAs.
-is_image: Indicates if the email contains images.
-is_personalised: Indicates if the email is personalized (1) or not (0).
-is_quote: Indicates if the email contains quotes.
-is_timer: Indicates if the email contains a timer.
-is_emoticons: Indicates if the email contains emoticons.
-is_discount: Indicates if the email offers a discount (1) or not (0).
-is_price: Indicates if the email mentions a price.
-is_urgency: Indicates if the email conveys urgency.
-target_audience: Target audience identifier.
-click_rate: Click rate for the email campaign.
+campaign_id: Unique identifier for each campaign.  
+sender: Identifier for the sender of the campaign.  
+subject_len: Length of the email subject.  
+body_len: Length of the email body.  
+mean_paragraph_len: Average length of paragraphs in the email body.  
+day_of_week: Day of the week the email was sent.  
+is_weekend: Indicates if the email was sent on a weekend (1) or not (0).  
+times_of_day: Time of day the email was sent (e.g., Morning, Noon, Evening).  
+category: Category of the email campaign.  
+product: Product associated with the campaign.  
+no_of_CTA: Number of Call-To-Actions (CTAs) in the email.  
+mean_CTA_len: Average length of CTAs.  
+is_image: Indicates if the email contains images.  
+is_personalised: Indicates if the email is personalized (1) or not (0).  
+is_quote: Indicates if the email contains quotes.  
+is_timer: Indicates if the email contains a timer.  
+is_emoticons: Indicates if the email contains emoticons.  
+is_discount: Indicates if the email offers a discount (1) or not (0).  
+is_price: Indicates if the email mentions a price.  
+is_urgency: Indicates if the email conveys urgency.  
+target_audience: Target audience identifier.  
+click_rate: Click rate for the email campaign.  
 
 ## Data Analysis
 1. Click Rate vs. is_weekend
@@ -75,8 +75,8 @@ mean in group 0 (No Discount) = 0.043362161
 mean in group 1 (Discount) = 0.006241661
 Conclusion: Emails offering discounts have significantly lower click rates compared to those that do not offer discounts.
 
-Repository Contents
-email_campaign_dataset.csv: The dataset used for analysis.
+Repository Contents  
+email_campaign_dataset.csv: The dataset used for analysis.  
 analysis.R: R script containing the code for data analysis and statistical tests.
 
 ## Conclusion
